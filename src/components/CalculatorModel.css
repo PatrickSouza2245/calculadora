@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+}
+
+.calculator-layout{
+    width:300px;
+    height: 365px;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    box-shadow: 1px 1px 5px 4px rgba(172, 172, 172, 0.301);
+}
+
+.display{
+    border-radius: 5px;
+    width: 277px;
+    text-align: right;
+    font-size: 27px;
+    background-color: rgba(64, 83, 64, 0.336);
+    padding: 12px 7px;
+    margin: 6px 4px;
+}
+
+.clear{
+    width: 220px;
+    margin: 2px;
+}
+
+.clear:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.buttons{
+    width: 222px;
+}
+
+button{
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.numbers{
+    background-color: rgb(134, 134, 134);
+    margin: 2px;
+}
+
+.numbers:hover{
+    background-color: rgb(107, 107, 107);
+}
+
+.operators{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 226px;
+    bottom: 278px;
+}
+
+.operatorNum{
+    margin-bottom: 4px ;
+}
+
+.operatorNum:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.result{
+    background-color: orange;
+    position: relative;
+    width: 223px;
+    left: 76px;
+    bottom: 278px;
+}
+
+.result:hover{
+    background-color: rgb(180, 117, 0);
+}
